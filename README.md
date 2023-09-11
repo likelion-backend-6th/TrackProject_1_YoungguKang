@@ -2,6 +2,33 @@
 
 ## 프로젝트 미완성
 
+환경 및 버전
+
+언어
+
+Python: 3.9.13
+
+라이브러리
+
+Django: 4.2.5
+djangorestframework: 3.14.0
+drf-spectacular: 0.26.4
+psycopg2-binary: 2.9.7
+gunicorn: 21.2.0
+
+클라우드
+
+backend-server: ubuntu 20.04
+db-server: ubuntu 20.04
+
+도커
+
+Docker: 24.0.2
+backend-image: python-3.11-alpine
+db-image: postgresql-13
+
+
+
 ### 1. 백엔드 DB 설계
 
 - [x] Post
